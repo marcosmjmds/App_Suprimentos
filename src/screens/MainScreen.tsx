@@ -37,7 +37,7 @@ export default function MainScreen({ navigation }: any) {
         style={styles.button}
         onPress={() => navigation.navigate('Requests')}
       >
-        <Text style={styles.buttonText}>Verificar Solicitações</Text>
+        <Text style={styles.buttonText}>Minhas Solicitações</Text>
       </TouchableOpacity>
     </View>
   );
